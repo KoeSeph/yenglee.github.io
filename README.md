@@ -1,6 +1,6 @@
-# Welcome to our happyWebsite
+# Admin Sensei
 
-This is a website dedicated to making people experience all the good things in the world. The purpose of the site is to cheer you up when you're feeling down. It is currently being developed.
+Find an MBA Mentor
 ```
   npm install
 ```
