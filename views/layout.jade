@@ -1,0 +1,33 @@
+doctype
+html(lang='en')
+  head
+    title #{title} - Happy Website
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    lang 
+  body
+    
+    .header
+      block header
+
+    .container
+      .goodDeeds
+        block goodDeeds
+      .uploadArea.clear
+        .textUpload
+          block textUpload
+          form  
+            h1 Form Goes Here
+            block form
+        .imgUpload
+          block imgUpload
+      .displayArea
+        block displayArea    
+    .footer.clear
+      .footerInfo
+        .colL
+          Copyright @ 2015
+        .colC
+          Connect with Us
+        .colR
+          Other Projects
+        
